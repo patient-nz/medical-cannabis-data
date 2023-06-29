@@ -1,0 +1,42 @@
+{
+  "name": "@patient-nz/medical-cannabis-data",
+  "version": "1.0.0-alpha.0",
+  "main": "./index.js",
+  "module": "./index.js",
+  "types": "./index.d.ts",
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./index.d.ts"
+      ],
+      "social-media": [
+        "./social-media/index.d.ts"
+      ],
+      "social-media/reddit": [
+        "./social-media/reddit/index.d.ts"
+      ],
+      "social-media/reddit/polls": [
+        "./social-media/reddit/polls/index.d.ts"
+      ]
+    }
+  },
+  "type": "module",
+  "sideEffects": false,
+  "keywords": [],
+  "exports": {
+    ".": "./index.js",
+    "./social-media": "./social-media/index.js",
+    "./social-media/reddit": "./social-media/reddit/index.js",
+    "./social-media/reddit/polls": "./social-media/reddit/polls/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patient-nz/medical-cannabis-data.git"
+  },
+  "bugs": {
+    "url": "https://github.com/patient-nz/medical-cannabis-data/issues"
+  },
+  "homepage": "https://github.com/patient-nz/medical-cannabis-data#readme",
+  "author": "Fabian Cook <hello@fabiancook.dev>",
+  "license": "CC-BY-4.0"
+}
