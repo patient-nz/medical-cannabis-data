@@ -1,6 +1,6 @@
 {
   "name": "@patient-nz/medical-cannabis-data",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.2",
   "main": "./index.js",
   "module": "./index.js",
   "types": "./index.d.ts",
