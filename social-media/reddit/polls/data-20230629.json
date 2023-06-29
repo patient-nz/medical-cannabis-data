@@ -93,15 +93,18 @@
     "options": [
       {
         "title": "1–4 times per day",
-        "votes": "82"
+        "votes": "82",
+        "range": ["1", "4"]
       },
       {
         "title": "5–10 times per day",
-        "votes": "27"
+        "votes": "27",
+        "range": ["5", "10"]
       },
       {
         "title": "All day, every day",
-        "votes": "17"
+        "votes": "17",
+        "range": ["11"]
       }
     ]
   },
@@ -115,15 +118,18 @@
     "options": [
       {
         "title": "1–5 hits per session",
-        "votes": "68"
+        "votes": "68",
+        "range": ["1", "5"]
       },
       {
         "title": "6–10 hits per session",
-        "votes": "37"
+        "votes": "37",
+        "range": ["6", "10"]
       },
       {
         "title": "More than 10 hits per smoking session",
-        "votes": "30"
+        "votes": "30",
+        "range": ["11"]
       }
     ]
   },
@@ -239,23 +245,28 @@
     "options": [
       {
         "title": "1 plant",
-        "votes": "8"
+        "votes": "8",
+        "value": "1"
       },
       {
         "title": "2 plants",
-        "votes": "79"
+        "votes": "79",
+        "value": "2"
       },
       {
         "title": "4 plants",
-        "votes": "92"
+        "votes": "92",
+        "value": "4"
       },
       {
         "title": "6 plants",
-        "votes": "27"
+        "votes": "27",
+        "value": "6"
       },
       {
         "title": "8 plants or more",
-        "votes": "43"
+        "votes": "43",
+        "value": "8"
       }
     ]
   },
@@ -441,27 +452,33 @@
     "options": [
       {
         "title": "More than once a week",
-        "votes": "5"
+        "votes": "5",
+        "value": "6"
       },
       {
         "title": "Weekly",
-        "votes": "5"
+        "votes": "5",
+        "value": "4"
       },
       {
         "title": "Every two weeks",
-        "votes": "17"
+        "votes": "17",
+        "value": "2"
       },
       {
         "title": "Every three weeks or monthly",
-        "votes": "95"
+        "votes": "95",
+        "value": "1"
       },
       {
         "title": "Every two months",
-        "votes": "54"
+        "votes": "54",
+        "value": "0.5"
       },
       {
         "title": "Three months or more",
-        "votes": "57"
+        "votes": "57",
+        "value": "0.3"
       }
     ]
   },
@@ -476,27 +493,33 @@
     "options": [
       {
         "title": "$50 or less",
-        "votes": "10"
+        "votes": "10",
+        "range": ["50"]
       },
       {
         "title": "$51 - $100",
-        "votes": "16"
+        "votes": "16",
+        "range": ["51", "100"]
       },
       {
         "title": "$101 - $250",
-        "votes": "34"
+        "votes": "34",
+        "range": ["101", "250"]
       },
       {
         "title": "$251 - $500",
-        "votes": "69"
+        "votes": "69",
+        "range": ["251", "500"]
       },
       {
         "title": "$501 - $1500",
-        "votes": "31"
+        "votes": "31",
+        "range": ["501", "$1500"]
       },
       {
         "title": "$1501 or more",
-        "votes": "10"
+        "votes": "10",
+        "range": ["$1501"]
       }
     ]
   },
@@ -511,27 +534,33 @@
     "options": [
       {
         "title": "$49 or less with a Nurse",
-        "votes": "51"
+        "votes": "51",
+        "value": "49"
       },
       {
         "title": "$50 or more with a Nurse",
-        "votes": "3"
+        "votes": "3",
+        "value": "50"
       },
       {
         "title": "$49 or less with a Doctor",
-        "votes": "52"
+        "votes": "52",
+        "range": ["49"]
       },
       {
         "title": "$50 - $69 with a Doctor",
-        "votes": "7"
+        "votes": "7",
+        "range": ["50", "69"]
       },
       {
         "title": "$70 - $89 with a Doctor",
-        "votes": "16"
+        "votes": "16",
+        "range": ["70", "89"]
       },
       {
         "title": "$90 or more with a Doctor",
-        "votes": "9"
+        "votes": "9",
+        "range": ["90"]
       }
     ]
   }
