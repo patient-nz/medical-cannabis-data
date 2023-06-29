@@ -19,6 +19,7 @@ export interface ActiveIngredientMetrics extends Record<string, unknown> {
 export interface PollReportOptionData extends Partial<ActiveIngredientMetrics> {
     title: string;
     votes: `${number}` | string;
+    range?: string[];
 }
 
 export interface PollReportData {
