@@ -26,4 +26,7 @@ export interface PollReportData {
     title: string;
     url?: string;
     options: PollReportOptionData[];
+    license: string;
+    licenseName: string;
+    author: string;
 }
